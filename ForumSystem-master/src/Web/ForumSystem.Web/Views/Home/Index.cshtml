@@ -13,7 +13,11 @@
                 <img width="100" class="mr-3" src="@category.ImageUrl" alt="@category.Title">
             </div>
             <div class="flex-grow-1 ms-3">
-                <h5 class="mt-0"><a href="@category.Url">@category.Title</a></h5>
+                <h5 class="mt-0">
+                    <a href="@category.Url">
+                        @category.Title (@category.PostsCount)
+                    </a>
+                </h5>
                 @category.Description
             </div>
         </div>
